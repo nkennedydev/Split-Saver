@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3994C4EC1EDB71FD00D8A05E /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */; };
+		3994C4ED1EDB71FD00D8A05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */; };
+		3994C4EE1EDB71FD00D8A05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */; };
+		3994C4F11EDB71FD00D8A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */; };
+		3994C4F61EDB724200D8A05E /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */; };
+		3994C4F71EDB724500D8A05E /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3FC1EDB719300B35EAC /* Release-Info.plist */; };
 		39C9F3CC1EDB6E6700B35EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */; };
 		39C9F3CE1EDB6E6700B35EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */; };
 		39C9F3D41EDB6E6700B35EAC /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */; };
 		39C9F3D61EDB6E6700B35EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */; };
 		39C9F3E41EDB6E6700B35EAC /* Split_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3E31EDB6E6700B35EAC /* Split_SaverTests.swift */; };
 		39C9F3EF1EDB6E6700B35EAC /* Split_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3EE1EDB6E6700B35EAC /* Split_SaverUITests.swift */; };
+		74C28F53090E17D336705738 /* libPods-Split Saver Release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C1C0B99A65AEA43311F9F5 /* libPods-Split Saver Release.a */; };
+		82CD8B40DF30896A05802768 /* libPods-Split Saver Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F441D582B38F705B76EC6E1 /* libPods-Split Saver Dev.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39C9F3C81EDB6E6700B35EAC /* Split Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C9F3C81EDB6E6700B35EAC /* Split Saver Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39C9F3D31EDB6E6700B35EAC /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
 		39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39C9F3DA1EDB6E6700B35EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
 		39C9F3DF1EDB6E6700B35EAC /* Split SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3E31EDB6E6700B35EAC /* Split_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_SaverTests.swift; sourceTree = "<group>"; };
 		39C9F3E51EDB6E6700B35EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C9F3EA1EDB6E6700B35EAC /* Split SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3EE1EDB6E6700B35EAC /* Split_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_SaverUITests.swift; sourceTree = "<group>"; };
 		39C9F3F01EDB6E6700B35EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C9F3FC1EDB719300B35EAC /* Release-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Release-Info.plist"; sourceTree = "<group>"; };
+		4E292767D216A58485CDE218 /* Pods-Split Saver Release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Release.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release.debug.xcconfig"; sourceTree = "<group>"; };
+		69E2AA2FEB025A1F206F0601 /* Pods-Split Saver Release.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Release.release.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release.release.xcconfig"; sourceTree = "<group>"; };
+		6C73CBA7D85D99FE0A3716D6 /* Pods-Split Saver Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Dev/Pods-Split Saver Dev.release.xcconfig"; sourceTree = "<group>"; };
+		8F441D582B38F705B76EC6E1 /* libPods-Split Saver Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Split Saver Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38E1EE0A1189D048BC1BBE1 /* Pods-Split Saver Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Dev/Pods-Split Saver Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C1C0B99A65AEA43311F9F5 /* libPods-Split Saver Release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Split Saver Release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3994C4EF1EDB71FD00D8A05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C28F53090E17D336705738 /* libPods-Split Saver Release.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39C9F3C51EDB6E6700B35EAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CD8B40DF30896A05802768 /* libPods-Split Saver Dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,15 +104,18 @@
 				39C9F3E21EDB6E6700B35EAC /* Split SaverTests */,
 				39C9F3ED1EDB6E6700B35EAC /* Split SaverUITests */,
 				39C9F3C91EDB6E6700B35EAC /* Products */,
+				E999C59D3427A8CECDDCC07D /* Pods */,
+				D13F4E9779082D9F1F8C5124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		39C9F3C91EDB6E6700B35EAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39C9F3C81EDB6E6700B35EAC /* Split Saver.app */,
+				39C9F3C81EDB6E6700B35EAC /* Split Saver Dev.app */,
 				39C9F3DF1EDB6E6700B35EAC /* Split SaverTests.xctest */,
 				39C9F3EA1EDB6E6700B35EAC /* Split SaverUITests.xctest */,
+				3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +126,8 @@
 				39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */,
 				39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */,
 				39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */,
-				39C9F3DA1EDB6E6700B35EAC /* Info.plist */,
+				39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */,
+				39C9F3FC1EDB719300B35EAC /* Release-Info.plist */,
 				39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */,
 			);
 			path = "Split Saver";
@@ -122,24 +151,67 @@
 			path = "Split SaverUITests";
 			sourceTree = "<group>";
 		};
+		D13F4E9779082D9F1F8C5124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F441D582B38F705B76EC6E1 /* libPods-Split Saver Dev.a */,
+				F4C1C0B99A65AEA43311F9F5 /* libPods-Split Saver Release.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E999C59D3427A8CECDDCC07D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D38E1EE0A1189D048BC1BBE1 /* Pods-Split Saver Dev.debug.xcconfig */,
+				6C73CBA7D85D99FE0A3716D6 /* Pods-Split Saver Dev.release.xcconfig */,
+				4E292767D216A58485CDE218 /* Pods-Split Saver Release.debug.xcconfig */,
+				69E2AA2FEB025A1F206F0601 /* Pods-Split Saver Release.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39C9F3C71EDB6E6700B35EAC /* Split Saver */ = {
+		3994C4EA1EDB71FD00D8A05E /* Split Saver Release */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39C9F3F31EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split Saver" */;
+			buildConfigurationList = 3994C4F21EDB71FD00D8A05E /* Build configuration list for PBXNativeTarget "Split Saver Release" */;
 			buildPhases = (
-				39C9F3C41EDB6E6700B35EAC /* Sources */,
-				39C9F3C51EDB6E6700B35EAC /* Frameworks */,
-				39C9F3C61EDB6E6700B35EAC /* Resources */,
+				BEEEA6572D9EEE8D3AC7F725 /* [CP] Check Pods Manifest.lock */,
+				3994C4EB1EDB71FD00D8A05E /* Sources */,
+				3994C4EF1EDB71FD00D8A05E /* Frameworks */,
+				3994C4F01EDB71FD00D8A05E /* Resources */,
+				C1BF036BC0E9CBAAFFD2ED71 /* [CP] Embed Pods Frameworks */,
+				A9FF497B33F5F99587D9E853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Split Saver";
+			name = "Split Saver Release";
 			productName = "Split Saver";
-			productReference = 39C9F3C81EDB6E6700B35EAC /* Split Saver.app */;
+			productReference = 3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C9F3C71EDB6E6700B35EAC /* Split Saver Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C9F3F31EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split Saver Dev" */;
+			buildPhases = (
+				1D8DF36FC8CF076BC6C18551 /* [CP] Check Pods Manifest.lock */,
+				39C9F3C41EDB6E6700B35EAC /* Sources */,
+				39C9F3C51EDB6E6700B35EAC /* Frameworks */,
+				39C9F3C61EDB6E6700B35EAC /* Resources */,
+				D52F26B5EC0524414CC0DCC8 /* [CP] Embed Pods Frameworks */,
+				F76A5011BFABB578E4F65360 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Split Saver Dev";
+			productName = "Split Saver";
+			productReference = 39C9F3C81EDB6E6700B35EAC /* Split Saver Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		39C9F3DE1EDB6E6700B35EAC /* Split SaverTests */ = {
@@ -188,6 +260,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = nkdev;
 				TargetAttributes = {
+					3994C4EA1EDB71FD00D8A05E = {
+						DevelopmentTeam = 2D623BSTXN;
+					};
 					39C9F3C71EDB6E6700B35EAC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2D623BSTXN;
@@ -220,7 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39C9F3C71EDB6E6700B35EAC /* Split Saver */,
+				39C9F3C71EDB6E6700B35EAC /* Split Saver Dev */,
+				3994C4EA1EDB71FD00D8A05E /* Split Saver Release */,
 				39C9F3DE1EDB6E6700B35EAC /* Split SaverTests */,
 				39C9F3E91EDB6E6700B35EAC /* Split SaverUITests */,
 			);
@@ -228,10 +304,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3994C4F01EDB71FD00D8A05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3994C4F71EDB724500D8A05E /* Release-Info.plist in Resources */,
+				3994C4F11EDB71FD00D8A05E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39C9F3C61EDB6E6700B35EAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3994C4F61EDB724200D8A05E /* Dev-Info.plist in Resources */,
 				39C9F3D61EDB6E6700B35EAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +338,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8DF36FC8CF076BC6C18551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9FF497B33F5F99587D9E853 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEEA6572D9EEE8D3AC7F725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BF036BC0E9CBAAFFD2ED71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52F26B5EC0524414CC0DCC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Split Saver Dev/Pods-Split Saver Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76A5011BFABB578E4F65360 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Split Saver Dev/Pods-Split Saver Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		3994C4EB1EDB71FD00D8A05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3994C4EC1EDB71FD00D8A05E /* Split_Saver.xcdatamodeld in Sources */,
+				3994C4ED1EDB71FD00D8A05E /* ViewController.swift in Sources */,
+				3994C4EE1EDB71FD00D8A05E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39C9F3C41EDB6E6700B35EAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,17 +473,45 @@
 /* Begin PBXTargetDependency section */
 		39C9F3E11EDB6E6700B35EAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39C9F3C71EDB6E6700B35EAC /* Split Saver */;
+			target = 39C9F3C71EDB6E6700B35EAC /* Split Saver Dev */;
 			targetProxy = 39C9F3E01EDB6E6700B35EAC /* PBXContainerItemProxy */;
 		};
 		39C9F3EC1EDB6E6700B35EAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39C9F3C71EDB6E6700B35EAC /* Split Saver */;
+			target = 39C9F3C71EDB6E6700B35EAC /* Split Saver Dev */;
 			targetProxy = 39C9F3EB1EDB6E6700B35EAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3994C4F31EDB71FD00D8A05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E292767D216A58485CDE218 /* Pods-Split Saver Release.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2D623BSTXN;
+				INFOPLIST_FILE = "Split Saver copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nkdev.Split-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3994C4F41EDB71FD00D8A05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E2AA2FEB025A1F206F0601 /* Pods-Split Saver Release.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2D623BSTXN;
+				INFOPLIST_FILE = "Split Saver copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nkdev.Split-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		39C9F3F11EDB6E6700B35EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,6 +607,7 @@
 		};
 		39C9F3F41EDB6E6700B35EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38E1EE0A1189D048BC1BBE1 /* Pods-Split Saver Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D623BSTXN;
@@ -403,6 +621,7 @@
 		};
 		39C9F3F51EDB6E6700B35EAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C73CBA7D85D99FE0A3716D6 /* Pods-Split Saver Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D623BSTXN;
@@ -475,6 +694,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3994C4F21EDB71FD00D8A05E /* Build configuration list for PBXNativeTarget "Split Saver Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3994C4F31EDB71FD00D8A05E /* Debug */,
+				3994C4F41EDB71FD00D8A05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		39C9F3C31EDB6E6700B35EAC /* Build configuration list for PBXProject "Split Saver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -484,13 +712,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39C9F3F31EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split Saver" */ = {
+		39C9F3F31EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split Saver Dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39C9F3F41EDB6E6700B35EAC /* Debug */,
 				39C9F3F51EDB6E6700B35EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39C9F3F61EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split SaverTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +728,7 @@
 				39C9F3F81EDB6E6700B35EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39C9F3F91EDB6E6700B35EAC /* Build configuration list for PBXNativeTarget "Split SaverUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +737,7 @@
 				39C9F3FB1EDB6E6700B35EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
