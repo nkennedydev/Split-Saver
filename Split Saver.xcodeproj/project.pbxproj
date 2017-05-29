@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3994C4EC1EDB71FD00D8A05E /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */; };
-		3994C4ED1EDB71FD00D8A05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */; };
-		3994C4EE1EDB71FD00D8A05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */; };
-		3994C4F11EDB71FD00D8A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */; };
-		3994C4F61EDB724200D8A05E /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */; };
-		3994C4F71EDB724500D8A05E /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3FC1EDB719300B35EAC /* Release-Info.plist */; };
-		399DE2831EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */; };
-		399DE2841EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */; };
-		39C9F3CC1EDB6E6700B35EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */; };
-		39C9F3CE1EDB6E6700B35EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */; };
-		39C9F3D41EDB6E6700B35EAC /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */; };
-		39C9F3D61EDB6E6700B35EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */; };
+		399DE2891EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */; };
+		399DE28A1EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */; };
+		399DE2CC1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
+		399DE2CD1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
+		399DE2CE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
+		399DE2CF1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
+		399DE2D01EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
+		399DE2D11EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
+		399DE2D21EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
+		399DE2D31EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
+		399DE2D41EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
+		399DE2D51EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
+		399DE2D61EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
+		399DE2D71EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
+		399DE2D81EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
+		399DE2D91EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
+		399DE2DA1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
+		399DE2DB1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
+		399DE2DC1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
+		399DE2DD1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
+		399DE2DE1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
+		399DE2DF1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
+		399DE2E01EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
+		399DE2E11EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
+		399DE2E21EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
+		399DE2E31EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
+		399DE2E41EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
+		399DE2E51EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
+		399DE2E61EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
+		399DE2E71EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
+		399DE2E81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
+		399DE2E91EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
+		399DE2EA1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
+		399DE2EB1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
+		399DE2EC1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
+		399DE2ED1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
+		399DE2EE1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
+		399DE2EF1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
+		399DE2F01EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
+		399DE2F11EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
+		399DE2F21EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
+		399DE2F31EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
+		399DE3071EDBE994006271E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE3031EDBE994006271E6 /* AppDelegate.swift */; };
+		399DE3081EDBE994006271E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE3031EDBE994006271E6 /* AppDelegate.swift */; };
+		399DE3091EDBE994006271E6 /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3051EDBE994006271E6 /* Dev-Info.plist */; };
+		399DE30A1EDBE994006271E6 /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3051EDBE994006271E6 /* Dev-Info.plist */; };
+		399DE30B1EDBE994006271E6 /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3061EDBE994006271E6 /* Release-Info.plist */; };
+		399DE30C1EDBE994006271E6 /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3061EDBE994006271E6 /* Release-Info.plist */; };
+		399DE3231EDBE9BD006271E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399DE31E1EDBE9BD006271E6 /* Assets.xcassets */; };
+		399DE3241EDBE9BD006271E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399DE31E1EDBE9BD006271E6 /* Assets.xcassets */; };
 		39C9F3E41EDB6E6700B35EAC /* Split_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3E31EDB6E6700B35EAC /* Split_SaverTests.swift */; };
 		39C9F3EF1EDB6E6700B35EAC /* Split_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3EE1EDB6E6700B35EAC /* Split_SaverUITests.swift */; };
 		74C28F53090E17D336705738 /* libPods-Split Saver Release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C1C0B99A65AEA43311F9F5 /* libPods-Split Saver Release.a */; };
@@ -44,20 +82,28 @@
 
 /* Begin PBXFileReference section */
 		3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
+		399DE2881EDBE802006271E6 /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
+		399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Debt+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Debt+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payments+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payments+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399DE3031EDBE994006271E6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		399DE3051EDBE994006271E6 /* Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
+		399DE3061EDBE994006271E6 /* Release-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Release-Info.plist"; sourceTree = "<group>"; };
+		399DE31E1EDBE9BD006271E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C9F3C81EDB6E6700B35EAC /* Split Saver Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39C9F3D31EDB6E6700B35EAC /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
-		39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
 		39C9F3DF1EDB6E6700B35EAC /* Split SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3E31EDB6E6700B35EAC /* Split_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_SaverTests.swift; sourceTree = "<group>"; };
 		39C9F3E51EDB6E6700B35EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C9F3EA1EDB6E6700B35EAC /* Split SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3EE1EDB6E6700B35EAC /* Split_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_SaverUITests.swift; sourceTree = "<group>"; };
 		39C9F3F01EDB6E6700B35EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C9F3FC1EDB719300B35EAC /* Release-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Release-Info.plist"; sourceTree = "<group>"; };
 		4E292767D216A58485CDE218 /* Pods-Split Saver Release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Release.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release.debug.xcconfig"; sourceTree = "<group>"; };
 		69E2AA2FEB025A1F206F0601 /* Pods-Split Saver Release.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Release.release.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Release/Pods-Split Saver Release.release.xcconfig"; sourceTree = "<group>"; };
 		6C73CBA7D85D99FE0A3716D6 /* Pods-Split Saver Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split Saver Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Split Saver Dev/Pods-Split Saver Dev.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,9 +149,139 @@
 		399DE2801EDBDD37006271E6 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */,
+				399DE2851EDBE7D9006271E6 /* Models */,
+				399DE2861EDBE802006271E6 /* Schemas */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		399DE2851EDBE7D9006271E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2BD1EDBE8A0006271E6 /* Bill */,
+				399DE2C01EDBE8A0006271E6 /* Debt */,
+				399DE2C31EDBE8A0006271E6 /* Group */,
+				399DE2C61EDBE8A0006271E6 /* Payment */,
+				399DE2C91EDBE8A0006271E6 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		399DE2861EDBE802006271E6 /* Schemas */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */,
+			);
+			path = Schemas;
+			sourceTree = "<group>";
+		};
+		399DE2BD1EDBE8A0006271E6 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */,
+				399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		399DE2C01EDBE8A0006271E6 /* Debt */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */,
+				399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */,
+			);
+			path = Debt;
+			sourceTree = "<group>";
+		};
+		399DE2C31EDBE8A0006271E6 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */,
+				399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		399DE2C61EDBE8A0006271E6 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */,
+				399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		399DE2C91EDBE8A0006271E6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */,
+				399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		399DE3021EDBE994006271E6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				399DE3031EDBE994006271E6 /* AppDelegate.swift */,
+				399DE3041EDBE994006271E6 /* PLists */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		399DE3041EDBE994006271E6 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				399DE3051EDBE994006271E6 /* Dev-Info.plist */,
+				399DE3061EDBE994006271E6 /* Release-Info.plist */,
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
+		399DE31D1EDBE9BD006271E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				399DE31E1EDBE9BD006271E6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		399DE31F1EDBE9BD006271E6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				399DE3201EDBE9BD006271E6 /* Cells */,
+				399DE3211EDBE9BD006271E6 /* ViewControllers */,
+				399DE3221EDBE9BD006271E6 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		399DE3201EDBE9BD006271E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		399DE3211EDBE9BD006271E6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		399DE3221EDBE9BD006271E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		399DE3251EDBEA08006271E6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		39C9F3BF1EDB6E6700B35EAC = {
@@ -134,13 +310,11 @@
 		39C9F3CA1EDB6E6700B35EAC /* Split Saver */ = {
 			isa = PBXGroup;
 			children = (
+				399DE3021EDBE994006271E6 /* Application */,
 				399DE2801EDBDD37006271E6 /* CoreData */,
-				39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */,
-				39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */,
-				39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */,
-				39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */,
-				39C9F3FC1EDB719300B35EAC /* Release-Info.plist */,
-				39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */,
+				399DE3251EDBEA08006271E6 /* Networking */,
+				399DE31D1EDBE9BD006271E6 /* Resources */,
+				399DE31F1EDBE9BD006271E6 /* UI */,
 			);
 			path = "Split Saver";
 			sourceTree = "<group>";
@@ -321,8 +495,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3994C4F71EDB724500D8A05E /* Release-Info.plist in Resources */,
-				3994C4F11EDB71FD00D8A05E /* Assets.xcassets in Resources */,
+				399DE30C1EDBE994006271E6 /* Release-Info.plist in Resources */,
+				399DE3241EDBE9BD006271E6 /* Assets.xcassets in Resources */,
+				399DE30A1EDBE994006271E6 /* Dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +505,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3994C4F61EDB724200D8A05E /* Dev-Info.plist in Resources */,
-				39C9F3D61EDB6E6700B35EAC /* Assets.xcassets in Resources */,
+				399DE30B1EDBE994006271E6 /* Release-Info.plist in Resources */,
+				399DE3231EDBE9BD006271E6 /* Assets.xcassets in Resources */,
+				399DE3091EDBE994006271E6 /* Dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,10 +625,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399DE2841EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */,
-				3994C4EC1EDB71FD00D8A05E /* Split_Saver.xcdatamodeld in Sources */,
-				3994C4ED1EDB71FD00D8A05E /* ViewController.swift in Sources */,
-				3994C4EE1EDB71FD00D8A05E /* AppDelegate.swift in Sources */,
+				399DE3081EDBE994006271E6 /* AppDelegate.swift in Sources */,
+				399DE2E91EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
+				399DE2CD1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
+				399DE2DD1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
+				399DE2ED1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
+				399DE2D91EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
+				399DE2D51EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
+				399DE2D11EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
+				399DE2E51EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
+				399DE2F11EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
+				399DE2E11EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
+				399DE28A1EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,10 +644,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399DE2831EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */,
-				39C9F3D41EDB6E6700B35EAC /* Split_Saver.xcdatamodeld in Sources */,
-				39C9F3CE1EDB6E6700B35EAC /* ViewController.swift in Sources */,
-				39C9F3CC1EDB6E6700B35EAC /* AppDelegate.swift in Sources */,
+				399DE3071EDBE994006271E6 /* AppDelegate.swift in Sources */,
+				399DE2E81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
+				399DE2CC1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
+				399DE2DC1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
+				399DE2EC1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
+				399DE2D81EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
+				399DE2D41EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
+				399DE2D01EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
+				399DE2E41EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
+				399DE2F01EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
+				399DE2E01EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
+				399DE2891EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +663,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DE2EA1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
+				399DE2CE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
+				399DE2DE1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
 				39C9F3E41EDB6E6700B35EAC /* Split_SaverTests.swift in Sources */,
+				399DE2EE1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
+				399DE2DA1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
+				399DE2E61EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
+				399DE2F21EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
+				399DE2D61EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
+				399DE2D21EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
+				399DE2E21EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +681,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DE2EB1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
+				399DE2CF1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
+				399DE2DF1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
 				39C9F3EF1EDB6E6700B35EAC /* Split_SaverUITests.swift in Sources */,
+				399DE2EF1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
+				399DE2DB1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
+				399DE2E71EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
+				399DE2F31EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
+				399DE2D71EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
+				399DE2D31EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
+				399DE2E31EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,22 +980,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */ = {
+		399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */,
+				399DE2881EDBE802006271E6 /* Split_Saver.xcdatamodel */,
 			);
-			currentVersion = 399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */;
-			path = Split_Saver.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				39C9F3D31EDB6E6700B35EAC /* Split_Saver.xcdatamodel */,
-			);
-			currentVersion = 39C9F3D31EDB6E6700B35EAC /* Split_Saver.xcdatamodel */;
+			currentVersion = 399DE2881EDBE802006271E6 /* Split_Saver.xcdatamodel */;
 			path = Split_Saver.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
