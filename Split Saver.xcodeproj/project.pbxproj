@@ -13,6 +13,8 @@
 		3994C4F11EDB71FD00D8A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */; };
 		3994C4F61EDB724200D8A05E /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3DA1EDB6E6700B35EAC /* Dev-Info.plist */; };
 		3994C4F71EDB724500D8A05E /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9F3FC1EDB719300B35EAC /* Release-Info.plist */; };
+		399DE2831EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */; };
+		399DE2841EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */; };
 		39C9F3CC1EDB6E6700B35EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */; };
 		39C9F3CE1EDB6E6700B35EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */; };
 		39C9F3D41EDB6E6700B35EAC /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */; };
@@ -42,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
 		39C9F3C81EDB6E6700B35EAC /* Split Saver Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		399DE2801EDBDD37006271E6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		39C9F3BF1EDB6E6700B35EAC = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +134,7 @@
 		39C9F3CA1EDB6E6700B35EAC /* Split Saver */ = {
 			isa = PBXGroup;
 			children = (
+				399DE2801EDBDD37006271E6 /* CoreData */,
 				39C9F3CB1EDB6E6700B35EAC /* AppDelegate.swift */,
 				39C9F3CD1EDB6E6700B35EAC /* ViewController.swift */,
 				39C9F3D51EDB6E6700B35EAC /* Assets.xcassets */,
@@ -437,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DE2841EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */,
 				3994C4EC1EDB71FD00D8A05E /* Split_Saver.xcdatamodeld in Sources */,
 				3994C4ED1EDB71FD00D8A05E /* ViewController.swift in Sources */,
 				3994C4EE1EDB71FD00D8A05E /* AppDelegate.swift in Sources */,
@@ -447,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DE2831EDBDD37006271E6 /* Split_Saver.xcdatamodeld in Sources */,
 				39C9F3D41EDB6E6700B35EAC /* Split_Saver.xcdatamodeld in Sources */,
 				39C9F3CE1EDB6E6700B35EAC /* ViewController.swift in Sources */,
 				39C9F3CC1EDB6E6700B35EAC /* AppDelegate.swift in Sources */,
@@ -754,6 +768,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		399DE2811EDBDD37006271E6 /* Split_Saver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */,
+			);
+			currentVersion = 399DE2821EDBDD37006271E6 /* Split_Saver.xcdatamodel */;
+			path = Split_Saver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		39C9F3D21EDB6E6700B35EAC /* Split_Saver.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
