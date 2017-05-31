@@ -7,52 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3933E96A1EE78E56004D4303 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9641EE78E56004D4303 /* BaseViewController.swift */; };
+		3933E96B1EE78E56004D4303 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9641EE78E56004D4303 /* BaseViewController.swift */; };
+		3933E96C1EE78E56004D4303 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9681EE78E56004D4303 /* ProfileViewController.swift */; };
+		3933E96D1EE78E56004D4303 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9681EE78E56004D4303 /* ProfileViewController.swift */; };
+		3933E96E1EE78E56004D4303 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9691EE78E56004D4303 /* RootViewController.swift */; };
+		3933E96F1EE78E56004D4303 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9691EE78E56004D4303 /* RootViewController.swift */; };
+		3933E9721EE790BB004D4303 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9711EE790BB004D4303 /* BillsViewController.swift */; };
+		3933E9731EE790BB004D4303 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9711EE790BB004D4303 /* BillsViewController.swift */; };
+		3933E9751EE790CC004D4303 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9741EE790CC004D4303 /* GroupsViewController.swift */; };
+		3933E9761EE790CC004D4303 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9741EE790CC004D4303 /* GroupsViewController.swift */; };
+		3933E9781EE790E5004D4303 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9771EE790E5004D4303 /* ScannerViewController.swift */; };
+		3933E9791EE790E5004D4303 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933E9771EE790E5004D4303 /* ScannerViewController.swift */; };
+		3934CFE81EDE5F400013FB6A /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3934CFE71EDE5F400013FB6A /* KeyManager.swift */; };
+		3934CFE91EDE5F400013FB6A /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3934CFE71EDE5F400013FB6A /* KeyManager.swift */; };
 		399DE2891EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */; };
 		399DE28A1EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2871EDBE802006271E6 /* Split_Saver.xcdatamodeld */; };
-		399DE2CC1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
-		399DE2CD1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
-		399DE2CE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
-		399DE2CF1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */; };
-		399DE2D01EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
-		399DE2D11EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
-		399DE2D21EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
-		399DE2D31EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */; };
-		399DE2D41EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
-		399DE2D51EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
-		399DE2D61EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
-		399DE2D71EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */; };
-		399DE2D81EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
-		399DE2D91EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
-		399DE2DA1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
-		399DE2DB1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */; };
-		399DE2DC1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
-		399DE2DD1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
-		399DE2DE1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
-		399DE2DF1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */; };
-		399DE2E01EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
-		399DE2E11EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
-		399DE2E21EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
-		399DE2E31EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */; };
-		399DE2E41EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
-		399DE2E51EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
-		399DE2E61EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
-		399DE2E71EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */; };
-		399DE2E81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
-		399DE2E91EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
-		399DE2EA1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
-		399DE2EB1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */; };
-		399DE2EC1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
-		399DE2ED1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
-		399DE2EE1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
-		399DE2EF1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */; };
-		399DE2F01EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
-		399DE2F11EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
-		399DE2F21EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
-		399DE2F31EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */; };
 		399DE3071EDBE994006271E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE3031EDBE994006271E6 /* AppDelegate.swift */; };
 		399DE3081EDBE994006271E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DE3031EDBE994006271E6 /* AppDelegate.swift */; };
 		399DE3091EDBE994006271E6 /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3051EDBE994006271E6 /* Dev-Info.plist */; };
-		399DE30A1EDBE994006271E6 /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3051EDBE994006271E6 /* Dev-Info.plist */; };
 		399DE30B1EDBE994006271E6 /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3061EDBE994006271E6 /* Release-Info.plist */; };
 		399DE30C1EDBE994006271E6 /* Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399DE3061EDBE994006271E6 /* Release-Info.plist */; };
 		399DE3231EDBE9BD006271E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399DE31E1EDBE9BD006271E6 /* Assets.xcassets */; };
@@ -81,18 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3933E9641EE78E56004D4303 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3933E9681EE78E56004D4303 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3933E9691EE78E56004D4303 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3933E9711EE790BB004D4303 /* BillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
+		3933E9741EE790CC004D4303 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		3933E9771EE790E5004D4303 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		3934CFE71EDE5F400013FB6A /* KeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		3994C4F51EDB71FD00D8A05E /* Split Saver Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Saver Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399DE2881EDBE802006271E6 /* Split_Saver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Split_Saver.xcdatamodel; sourceTree = "<group>"; };
-		399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataClass.swift"; sourceTree = "<group>"; };
-		399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Debt+CoreDataClass.swift"; sourceTree = "<group>"; };
-		399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Debt+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataClass.swift"; sourceTree = "<group>"; };
-		399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payments+CoreDataClass.swift"; sourceTree = "<group>"; };
-		399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payments+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		399DE3031EDBE994006271E6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399DE3051EDBE994006271E6 /* Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
 		399DE3061EDBE994006271E6 /* Release-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Release-Info.plist"; sourceTree = "<group>"; };
@@ -146,6 +116,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3933E9651EE78E56004D4303 /* Bills */ = {
+			isa = PBXGroup;
+			children = (
+				3933E9711EE790BB004D4303 /* BillsViewController.swift */,
+			);
+			path = Bills;
+			sourceTree = "<group>";
+		};
+		3933E9661EE78E56004D4303 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				3933E9741EE790CC004D4303 /* GroupsViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		3933E9671EE78E56004D4303 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3933E9681EE78E56004D4303 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3933E9701EE78FEE004D4303 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				3933E9771EE790E5004D4303 /* ScannerViewController.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
 		399DE2801EDBDD37006271E6 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,8 +180,6 @@
 		399DE2BD1EDBE8A0006271E6 /* Bill */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2BE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift */,
-				399DE2BF1EDBE8A0006271E6 /* Bill+CoreDataProperties.swift */,
 			);
 			path = Bill;
 			sourceTree = "<group>";
@@ -187,8 +187,6 @@
 		399DE2C01EDBE8A0006271E6 /* Debt */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2C11EDBE8A0006271E6 /* Debt+CoreDataClass.swift */,
-				399DE2C21EDBE8A0006271E6 /* Debt+CoreDataProperties.swift */,
 			);
 			path = Debt;
 			sourceTree = "<group>";
@@ -196,8 +194,6 @@
 		399DE2C31EDBE8A0006271E6 /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2C41EDBE8A0006271E6 /* Group+CoreDataClass.swift */,
-				399DE2C51EDBE8A0006271E6 /* Group+CoreDataProperties.swift */,
 			);
 			path = Group;
 			sourceTree = "<group>";
@@ -205,8 +201,6 @@
 		399DE2C61EDBE8A0006271E6 /* Payment */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2C71EDBE8A0006271E6 /* Payments+CoreDataClass.swift */,
-				399DE2C81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
@@ -214,8 +208,6 @@
 		399DE2C91EDBE8A0006271E6 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				399DE2CA1EDBE8A0006271E6 /* User+CoreDataClass.swift */,
-				399DE2CB1EDBE8A0006271E6 /* User+CoreDataProperties.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -225,6 +217,7 @@
 			children = (
 				399DE3031EDBE994006271E6 /* AppDelegate.swift */,
 				399DE3041EDBE994006271E6 /* PLists */,
+				3934CFE71EDE5F400013FB6A /* KeyManager.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -249,32 +242,14 @@
 		399DE31F1EDBE9BD006271E6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				399DE3201EDBE9BD006271E6 /* Cells */,
-				399DE3211EDBE9BD006271E6 /* ViewControllers */,
-				399DE3221EDBE9BD006271E6 /* Views */,
+				3933E9641EE78E56004D4303 /* BaseViewController.swift */,
+				3933E9691EE78E56004D4303 /* RootViewController.swift */,
+				3933E9651EE78E56004D4303 /* Bills */,
+				3933E9661EE78E56004D4303 /* Groups */,
+				3933E9671EE78E56004D4303 /* Profile */,
+				3933E9701EE78FEE004D4303 /* Scanner */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		399DE3201EDBE9BD006271E6 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		399DE3211EDBE9BD006271E6 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		399DE3221EDBE9BD006271E6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		399DE3251EDBEA08006271E6 /* Networking */ = {
@@ -497,7 +472,6 @@
 			files = (
 				399DE30C1EDBE994006271E6 /* Release-Info.plist in Resources */,
 				399DE3241EDBE9BD006271E6 /* Assets.xcassets in Resources */,
-				399DE30A1EDBE994006271E6 /* Dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,17 +600,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				399DE3081EDBE994006271E6 /* AppDelegate.swift in Sources */,
-				399DE2E91EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
-				399DE2CD1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
-				399DE2DD1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
-				399DE2ED1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
-				399DE2D91EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
-				399DE2D51EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
-				399DE2D11EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
-				399DE2E51EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
-				399DE2F11EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
-				399DE2E11EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
+				3933E96B1EE78E56004D4303 /* BaseViewController.swift in Sources */,
+				3933E96F1EE78E56004D4303 /* RootViewController.swift in Sources */,
+				3933E96D1EE78E56004D4303 /* ProfileViewController.swift in Sources */,
+				3933E9791EE790E5004D4303 /* ScannerViewController.swift in Sources */,
+				3933E9761EE790CC004D4303 /* GroupsViewController.swift in Sources */,
 				399DE28A1EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */,
+				3934CFE91EDE5F400013FB6A /* KeyManager.swift in Sources */,
+				3933E9731EE790BB004D4303 /* BillsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,17 +616,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				399DE3071EDBE994006271E6 /* AppDelegate.swift in Sources */,
-				399DE2E81EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
-				399DE2CC1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
-				399DE2DC1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
-				399DE2EC1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
-				399DE2D81EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
-				399DE2D41EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
-				399DE2D01EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
-				399DE2E41EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
-				399DE2F01EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
-				399DE2E01EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
+				3933E96A1EE78E56004D4303 /* BaseViewController.swift in Sources */,
+				3933E96E1EE78E56004D4303 /* RootViewController.swift in Sources */,
+				3933E96C1EE78E56004D4303 /* ProfileViewController.swift in Sources */,
+				3933E9781EE790E5004D4303 /* ScannerViewController.swift in Sources */,
+				3933E9751EE790CC004D4303 /* GroupsViewController.swift in Sources */,
 				399DE2891EDBE802006271E6 /* Split_Saver.xcdatamodeld in Sources */,
+				3934CFE81EDE5F400013FB6A /* KeyManager.swift in Sources */,
+				3933E9721EE790BB004D4303 /* BillsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,17 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399DE2EA1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
-				399DE2CE1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
-				399DE2DE1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
 				39C9F3E41EDB6E6700B35EAC /* Split_SaverTests.swift in Sources */,
-				399DE2EE1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
-				399DE2DA1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
-				399DE2E61EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
-				399DE2F21EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
-				399DE2D61EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
-				399DE2D21EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
-				399DE2E21EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,17 +639,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399DE2EB1EDBE8A0006271E6 /* Payments+CoreDataProperties.swift in Sources */,
-				399DE2CF1EDBE8A0006271E6 /* Bill+CoreDataClass.swift in Sources */,
-				399DE2DF1EDBE8A0006271E6 /* Group+CoreDataClass.swift in Sources */,
 				39C9F3EF1EDB6E6700B35EAC /* Split_SaverUITests.swift in Sources */,
-				399DE2EF1EDBE8A0006271E6 /* User+CoreDataClass.swift in Sources */,
-				399DE2DB1EDBE8A0006271E6 /* Debt+CoreDataProperties.swift in Sources */,
-				399DE2E71EDBE8A0006271E6 /* Payments+CoreDataClass.swift in Sources */,
-				399DE2F31EDBE8A0006271E6 /* User+CoreDataProperties.swift in Sources */,
-				399DE2D71EDBE8A0006271E6 /* Debt+CoreDataClass.swift in Sources */,
-				399DE2D31EDBE8A0006271E6 /* Bill+CoreDataProperties.swift in Sources */,
-				399DE2E31EDBE8A0006271E6 /* Group+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +666,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D84EQ2QV5P;
-				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Release-Info.plist";
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "NK_PROD_DATA=1";
+				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Application/PLists/Release-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkdev.SplitSaver.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -735,7 +684,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D84EQ2QV5P;
-				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Release-Info.plist";
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "NK_PROD_DATA=1";
+				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Application/PLists/Release-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkdev.SplitSaver.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -844,12 +794,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D84EQ2QV5P;
-				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Dev-Info.plist";
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "NK_DEV_DATA=1";
+				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Application/PLists/Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkdev.SplitSaver.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -861,12 +813,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D84EQ2QV5P;
-				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Dev-Info.plist";
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "NK_DEV_DATA=1";
+				INFOPLIST_FILE = "$(SRCROOT)/Split Saver/Application/PLists/Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkdev.SplitSaver.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
